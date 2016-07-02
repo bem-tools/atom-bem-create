@@ -1,0 +1,24 @@
+{
+  "name": "atom-bem-create",
+  "main": "./lib/atom-bem-create",
+  "version": "1.0.0",
+  "description": "Atom plugin for bem-tools-create",
+  "keywords": [
+    "bem",
+    "bem-tools",
+    "bem create",
+    "bem-tools-create"
+  ],
+  "author": "Vladimir Grinenko <i@tadatuta.com>",
+  "activationCommands": {
+    "atom-workspace": "atom-bem-create:create"
+  },
+  "repository": "https://github.com/tadatuta/atom-bem-create",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "bem-tools-create": "bem-contrib/bem-tools-create"
+  }
+}

@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'bem-create'
+      'command': 'atom-bem-create:create'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'bem-create'
+      'submenu': [
+        {
+          'label': 'create'
+          'command': 'atom-bem-create:create'
+        }
+      ]
+    ]
+  }
+]
