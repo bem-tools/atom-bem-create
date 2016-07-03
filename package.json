@@ -6,19 +6,38 @@
   "keywords": [
     "bem",
     "bem-tools",
+    "bem-naming",
     "bem create",
     "bem-tools-create"
   ],
   "author": "Vladimir Grinenko <i@tadatuta.com>",
-  "activationCommands": {
-    "atom-workspace": "atom-bem-create:create"
-  },
   "repository": "https://github.com/tadatuta/atom-bem-create",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "bem-tools-create": "bem-contrib/bem-tools-create"
+    "acorn": "^3.2.0",
+    "atom-notify": "^1.1.0",
+    "atom-space-pen-views": "^2.2.0",
+    "bem-naming": "^1.0.1",
+    "bem-tools-create": "bem-tools/bem-tools-create#master",
+    "escodegen": "a-x-/escodegen#patch-1",
+    "estraverse": "a-x-/estraverse#patch-1",
+    "lodash": "^4.13.1",
+    "ls": "^0.1.0"
+  },
+  "contributors": [
+    {
+      "email": "anyatyu@yandex-team.ru",
+      "name": "Anna Tyutyunnik"
+    },
+    {
+      "email": "invntrm@yandex-team.ru",
+      "name": "Alexander Mekhonoshin"
+    }
+  ],
+  "devDependencies": {
+    "chalk": "^1.1.3"
   }
 }

@@ -2,21 +2,23 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'bem-create'
+          type: 'separator'
+    },
+    {
+      'label': 'bem-create: Create block'
       'command': 'atom-bem-create:create'
+    },
+    {
+        type: 'separator'
     }
   ]
+
 'menu': [
   {
     'label': 'Packages'
-    'submenu': [
-      'label': 'bem-create'
-      'submenu': [
-        {
-          'label': 'create'
-          'command': 'atom-bem-create:create'
-        }
-      ]
-    ]
+    'submenu': [{
+      'label': 'bem-create: Create block'
+      'command': 'atom-bem-create:create'
+    }]
   }
 ]
