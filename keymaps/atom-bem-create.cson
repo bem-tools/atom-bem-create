@@ -8,4 +8,5 @@
 # For more detailed documentation see
 # https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 'atom-workspace':
-  'shift-cmd-C': 'atom-bem-create:create'
+  'shift-cmd-C': 'atom-bem-create:create',
+  'alt-shift-cmd-C': 'atom-bem-create:createModal'

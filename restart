@@ -1,0 +1,2 @@
+#!/bin/sh
+sudo kill -15 $(ps aux | grep atom | grep -Eo -- "$USER\s+\d+" | head -n1 | grep -oE '\d+') ; atom -d $HOME/.atom/packages/atom-bem-create/
