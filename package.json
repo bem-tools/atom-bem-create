@@ -20,6 +20,7 @@
     "acorn": "^3.2.0",
     "atom-notify": "^1.1.0",
     "atom-space-pen-views": "^2.2.0",
+    "bem-config": "^3.1.0",
     "bem-naming": "^1.0.1",
     "bem-tools-create": "bem-tools/bem-tools-create#master",
     "escodegen": "a-x-/escodegen#patch-1",
