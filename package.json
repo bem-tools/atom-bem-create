@@ -14,7 +14,7 @@
     "bem-tools-create"
   ],
   "author": "Vladimir Grinenko <i@tadatuta.com>",
-  "repository": "https://github.com/tadatuta/atom-bem-create",
+  "repository": "https://github.com/bem-tools/atom-bem-create",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
